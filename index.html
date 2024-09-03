@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Music</title>
+    <link rel="icon" href="./assets/ytmusic_icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- sticky bar -->
+      <div class="sticky-bar">
+        <div class="sticky-bar-left">
+          <i class="fa-solid fa-bars"></i>
+          <img src="./assets/ytmusic_icon.png" />
+          <p>Music</p>
+        </div>
+        <div class="sticky-bar-center">
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="Search songs, albums, artists, podcasts"
+            />
+          </div>
+        </div>
+        <div class="sticky-bar-right">
+          <i class="fa-brands fa-chromecast"></i>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+          <button type="button" class="sticky-bar-sign-in">Sign in</button>
+        </div>
+      </div>
+
+      <!-- sideBar -->
+      <nav class="sidebar">
+        <div class="navbar">
+          <div class="nav-links home-div">
+            <i class="fa-solid fa-house"></i>
+            <p>Home</p>
+          </div>
+          <div class="nav-links nav-links-hover">
+            <i class="fa-regular fa-compass"></i>
+            <p>Explore</p>
+          </div>
+          <div class="nav-links nav-links-hover">
+            <i class="fa-solid fa-clapperboard"></i>
+            <p>Library</p>
+          </div>
+          <div class="partition"></div>
+        </div>
+        <div class="mid-sidebar">
+          <button type="button" class="sidebar-sign-in">
+            <a href="#">Sign in</a>
+          </button>
+          <p>
+            Sign in to share & create playlist, <br />get personalised
+            recommendations, <br />and more
+          </p>
+        </div>
+      </nav>
+
+      <!-- main -->
+      <main>
+        <div class="categories">
+          <div class="category">
+            <button type="button">Feel good</button>
+          </div>
+          <div class="category">
+            <button type="button">Relax</button>
+          </div>
+          <div class="category">
+            <button type="button">Podcasts</button>
+          </div>
+          <div class="category">
+            <button type="button">Romance</button>
+          </div>
+          <div class="category">
+            <button type="button">Workout</button>
+          </div>
+          <div class="category">
+            <button type="button">Energize</button>
+          </div>
+          <div class="category">
+            <button type="button">Commute</button>
+          </div>
+          <div class="category">
+            <button type="button">Party</button>
+          </div>
+          <div class="category">
+            <button type="button">Sad</button>
+          </div>
+          <div class="category">
+            <button type="button">Focus</button>
+          </div>
+          <div class="category">
+            <button type="button">Sleep</button>
+          </div>
+        </div>
+
+        <!-- quick-picks -->
+        <div class="card-title">
+          <p>START RADIO FROM A SONG</p>
+          <div class="card-title-play">
+            <h2>Quick picks</h2>
+            <div class="card-title-buttons">
+              <button class="play-all-button" type="button">Play all</button>
+              <div class="card-title-arrows">
+                <img class="left-arrow" src="./assets/Left_Arrow_Icon.png" />
+                <img class="right-arrow" src="./assets/Right_Arrow_Icon.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="horizontal-card-container">
+          <div class="horizontal-card">
+            <img src="./assets/Pehle Bhi Main.png" />
+            <p>
+              Pehle Bhi Main <br /><a href="#">Vishal Mishra </a
+              ><a href="#">ANIMAL-HINDI</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/thara Paisa thari daulat.jpg" />
+            <p>
+              Thara Paisa thari daulat<br /><a>Dharmender, </a
+              ><a>Thara Paisa thari daulat</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Heeriye.jpg" />
+            <p>Heeriye<br /><a>Jasleen Royal</a><a>&amp;Arijit Singh</a></p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Apna Bana Le.jpg" />
+            <p>
+              Apna Bana Le (From &quot;Bhediya&quot;)<br /><a>Arijit Singhj</a
+              ><a>&amp;Saschin Jigar, </a><a>Apna Bana Le</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Dekha Tenu.jpg" />
+            <p>
+              Dekha Tenu(FROM &quot;Mr. &amp;Mrs. Mahi&quot;)<br /><a
+                >Jaani&amp;</a
+              ><a>Mohammed Faiz</a
+              ><a>Dekha Tenu(FROM &quot;Mr. &amp;Mrs. Mahi&quot;)</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Pehle Bhi Main.png" />
+            <p>Pehle Bhi Main<br /><a>Vishal Mishra, </a><a>ANIMAL-HINDI</a></p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Dekha Tenu.jpg" />
+            <p>
+              Dekha Tenu(FROM &quot;Mr. &amp;Mrs. Mahi&quot;)<br /><a
+                >Jaani&amp;</a
+              ><a>Mohammed Faiz</a
+              ><a>Dekha Tenu(FROM &quot;Mr. &amp;Mrs. Mahi&quot;)</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Pehle Bhi Main.png" />
+            <p>Pehle Bhi Main<br /><a>Vishal Mishra, </a><a>ANIMAL-HINDI</a></p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Radha Rani Lage.jpg" />
+            <p>
+              Radha Rani Lage<br /><a>Simpal Kharel, </a><a>Radha Rani Lage</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Radha Rani Lage.jpg" />
+            <p>
+              Radha Rani Lage<br /><a>Simpal Kharel, </a><a>Radha Rani Lage</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Pehle Bhi Main.png" />
+            <p>
+              Pehle Bhi Main <br /><a href="#">Vishal Mishra </a
+              ><a href="#">ANIMAL-HINDI</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/thara Paisa thari daulat.jpg" />
+            <p>
+              Thara Paisa thari daulat<br /><a>Dharmender, </a
+              ><a>Thara Paisa thari daulat</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Heeriye.jpg" />
+            <p>Heeriye<br /><a>Jasleen Royal</a><a>&amp;Arijit Singh</a></p>
+          </div>
+
+          <div class="horizontal-card">
+            <img src="./assets/Apna Bana Le.jpg" />
+            <p>
+              Apna Bana Le (From &quot;Bhediya&quot;)<br /><a>Arijit Singhj</a
+              ><a>&amp;Saschin Jigar, </a><a>Apna Bana Le</a>
+            </p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Heeriye.jpg" />
+            <p>Heeriye<br /><a>Jasleen Royal</a><a>&amp;Arijit Singh</a></p>
+          </div>
+          <div class="horizontal-card">
+            <img src="./assets/Apna Bana Le.jpg" />
+            <p>
+              Apna Bana Le (From &quot;Bhediya&quot;)<br /><a>Arijit Singhj</a
+              ><a>&amp;Saschin Jigar, </a><a>Apna Bana Le</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- hello-summer! -->
+        <div class="card-title">
+          <p>PLAYLISTS FOR THE SEASON</p>
+          <div class="card-title-play">
+            <h2>Hello, Summer!</h2>
+            <div class="card-title-buttons">
+              <button
+                class="play-all-button"
+                type="button"
+                style="opacity: 0; cursor: auto"
+              >
+                Play all
+              </button>
+              <div class="card-title-arrows">
+                <img class="left-arrow" src="./assets/Left_Arrow_Icon.png" />
+                <img class="right-arrow" src="./assets/Right_Arrow_Icon.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vertical-card-container">
+          <div class="vertical-card">
+            <img src="./assets/easy-breezy-retro.png" />
+            <a>Easy Breezy Retro: Hindi</a>
+            <p>Lata Mangeshkar, Ashok Kumar, Asha Bhosle</p>
+          </div>
+
+          <div class="vertical-card">
+            <img src="./assets/Easy Mornigs HIndi.png" />
+            <a>Easy Mornings: Hindi</a>
+            <p>Arijit Singh, Pritam, A.R Rahman</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/Happy Songs Bollywood.png" />
+            <a>Happy Songs: Bollywood</a>
+            <p>Arijit Singh, Amit Trivedi, Pritam</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/90s_chill_bollywood.png" />
+            <a>90s Chill: Bollywood</a>
+            <p>Kumar Sanu, Udit Narayan, Alka Yagnik</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/Feelin' Good Punjabi.png" />
+            <a>Feelin' Good: Punjabi</a>
+            <p>Jordan Sandhu, Diljeet Dosanjh, Garry Sandhu</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/Feelin' Good Bollywood.png" />
+            <a>Feelin' Good: Bollywood</a>
+            <p>Arijit Singh, Pritam, Amit Trivedi</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/Bollywood Coolers.png" />
+            <a>Bollywood Coolers</a>
+            <p>Arijit Singh, Pritam, Amit Trivedi, Mohit Chauhan</p>
+          </div>
+        </div>
+
+        <!-- punjabi-hits -->
+        <div class="card-title">
+          <div class="card-title-play">
+            <h2>Punjabi Hits</h2>
+            <div class="card-title-buttons">
+              <button
+                class="play-all-button"
+                type="button"
+                style="opacity: 0; cursor: auto"
+              >
+                Play all
+              </button>
+              <div class="card-title-arrows">
+                <img class="left-arrow" src="./assets/Left_Arrow_Icon.png" />
+                <img class="right-arrow" src="./assets/Right_Arrow_Icon.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="vertical-card-container">
+          <div class="vertical-card">
+            <img src="./assets/Punjab-Fire.png" />
+            <a href="#">Punjab Fire</a>
+            <p>Karan Aujla, Shubh, Diljit Dosanjh</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/iconi-punjabi-hits.png" />
+            <a href="3">Iconic Punjabi Hits</a>
+            <p>Diljit Dosanjh, Guru Randhawa, Janni, Yo Yo honey Singh</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/sing-along-punjabi.png" />
+            <a href="#">Sing-along:Punjabi</a>
+            <p>Diljit Dosanjh, Neha Kakkar, Shubh, Jass Manak</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/punjabi-essentials.png" />
+            <a href="#">Punjabi Essentials</a>
+            <p>Kaka, Karan Aujla, Marinde Buttar, Jass Manak</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/punjabi-party.png" />
+            <a href="#">Punjabi Party</a>
+            <p>Diljit Doasnjh, Karan, Shubh, Guru Randhawa</p>
+          </div>
+          <div class="vertical-card">
+            <img src="./assets/bhagra-bangers.png" />
+            <a href="#">Bhangra Bangers</a>
+            <p>Diljeet Dosanjh, Jordan Sandhu, Sidhu Moosewala</p>
+          </div>
+        </div>
+
+        <div class="main-footer">
+          <p>&nbsp;</p>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
