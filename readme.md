@@ -1,1 +1,1 @@
-Hello , this file will contain inforamation regarding the new upcoming projects
+Recreated the landing page for YouTube Music, refining responsive design and boosting overall user engagement through enhanced visual and functional elements.
